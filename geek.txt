@@ -1,0 +1,3 @@
+=vlookup(A261,KNABSheet!A:A, 1, false)
+=VLOOKUP(C1,'Product Backlog'!I2:I1000,2,False)
+find out duplicate - =COUNTIF(A:A,A53)>1

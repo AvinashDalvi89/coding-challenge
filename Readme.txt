@@ -1,6 +1,7 @@
 
 n = 4
 
+Subset should be contigous. so [1,3], [3,1],[2,1] is not allowed.
 affected = [1,2]
 posinous = [3,4]
 

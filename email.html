@@ -1,0 +1,30 @@
+<script type="text/javascript">
+  
+// var dateData = ["26 March 2018", "1 Jan 2018", "13 Feb 2018", "12 Dec 2017"];
+// dateData.sort();
+// var first = dateData[0];
+// var last = dateData[dateData.length-1];
+
+// console.log(dateData);
+
+
+// var dateStrings = ["26 March 2018", "1 Jan 2018", "13 Feb 2018", "12 Dec 2017"];
+// var sortedStrings = dateStrings.sort(function(a,b) {
+//     var aComps = a.split("/");
+//     var bComps = b.split("/");
+//     var aDate = new Date(a);
+//     var bDate = new Date(b);
+//     return aDate.getTime() - bDate.getTime();
+// });
+// console.log(sortedStrings);
+
+var a = [5,23,23,66,5,23,7,0];
+function singles(array) {
+  for (var index = 0, single = []; index < array.length; index++) {
+    if (array.indexOf(array[index], array.indexOf(array[index]) + 1) == -1)
+      single.push(array[index]);
+  };
+  return single;
+};
+console.log(singles(a));
+</script>
