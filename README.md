@@ -1,2 +1,2 @@
 # coding-challenge
-This is coding challenges which i am solved. 
+This is coding challenges which i solved. 
